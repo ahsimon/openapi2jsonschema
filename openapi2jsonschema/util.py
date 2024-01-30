@@ -91,6 +91,7 @@ def change_dict_values(d, prefix, version):
                         new_v = "%s%s" % (prefix, v)
                     else:
                         new_v = v.replace("#/components/schemas/", "") + ".json"
+                        new_v= new_v.lower()
             else:
                 new_v = v
             new[k] = new_v

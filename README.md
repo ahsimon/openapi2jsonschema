@@ -3,6 +3,12 @@
 A utility to extract [JSON Schema](http://json-schema.org/) from a
 valid [OpenAPI](https://www.openapis.org/) specification.
 
+* This is a fork from :
+
+[instrumenta/openapi2jsonschema](https://github.com/instrumenta/openapi2jsonschema).
+
+
+
 
 ## Why
 
@@ -20,7 +26,9 @@ can be easily maintained, because the canonical definition is shared.
 Python intepreter and pip installed you should be able to install with:
 
 ```
-pip install openapi2jsonschema
+ sudo python3 -m venv kittenv
+ sudo python3 -m pip install openapi2jsonschema
+
 ```
 
 This has not yet been widely tested and is currently in a _works on my
